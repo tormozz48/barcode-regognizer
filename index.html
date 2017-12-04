@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bar code recognizer</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <meta name="viewport" content="width=device-width; initial-scale=1.0; user-scalable=no" />
+    <link href="bundle.min.css" rel="stylesheet"></head>
+
+    <body>
+        <div class="container">
+            <div>
+                <h2>Входящий поток</h2>
+                <div id="video-player" class="video-player"></div>
+            </div>
+            <div>
+                <h2>Результаты</h2>
+                <div id="capture-result" class="capture-result">
+                    <div class="thumbnail">
+                        <img id="thumbnail-value" src=""/>
+                    </div>
+                    <div class="code">
+                        <span>Код:&nbsp;</span>
+                        <span id="code-value"></span>
+                    </div>
+                    <div class="format">
+                        <span>Формат:&nbsp;</span>
+                        <span id="format-value"></span>
+                    </div>
+                    <div class="line">
+                        <span>Координаты линии:&nbsp;</span>
+                        <span id="line-value"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <script type="text/javascript" src="bundle.min.js"></script></body>
+</html>
